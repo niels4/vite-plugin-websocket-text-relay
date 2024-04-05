@@ -1,0 +1,29 @@
+{
+  "name": "vite-plugin-websocket-text-relay",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A plugin for vite for rendering live updates from your text editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/niels4/vite-plugin-websocket-text-relay.git"
+  },
+  "keywords": [
+    "vite",
+    "websocket",
+    "live",
+    "coding"
+  ],
+  "author": "Niels Nielsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niels4/vite-plugin-websocket-text-relay/issues"
+  },
+  "homepage": "https://github.com/niels4/vite-plugin-websocket-text-relay#readme",
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
