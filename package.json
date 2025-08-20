@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/niels4/vite-plugin-websocket-text-relay#readme",
   "dependencies": {
-    "ws": "^8.16.0"
+    "ws": "^8.18.3"
   }
 }
