@@ -8,6 +8,9 @@ const websocketTextRelay = () => {
     apply: "serve",
     enforce: "pre",
     configureServer(viteServer) {
+      if (process.env.VITEST) {
+        return // don't start plugin when running tests
+      }
       wtrClient = new WebsocketTextRelayClient({viteServer})
     },
     load (id) {
